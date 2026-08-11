@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E'lonlar | Ads</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container header-content">
+      <h1>🛍️ E'lonlar</h1>
+      <p>O'zingizga kerakli mahsulotni toping</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <h2>Yangi e'lon qo'shing</h2>
+      <p>Mahsulotingiz haqida ma'lumot kiriting</p>
+
+      <form id="adForm">
+
+        <input
+          type="text"
+          id="title"
+          placeholder="E'lon nomi"
+          required
+        >
+
+        <textarea
+          id="description"
+          placeholder="Mahsulot haqida ma'lumot"
+          required
+        ></textarea>
+
+        <input
+          type="number"
+          id="price"
+          placeholder="Narxi"
+          required
+        >
+
+        <input
+          type="text"
+          id="category"
+          placeholder="Kategoriya"
+          required
+        >
+
+        <input
+          type="text"
+          id="location"
+          placeholder="Joylashuv"
+          required
+        >
+
+        <button type="submit">
+          E'lonni joylash
+        </button>
+
+      </form>
+
+      <div id="message"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 E'lonlar platformasi</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
