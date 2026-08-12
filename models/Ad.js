@@ -30,6 +30,12 @@ const adSchema = new mongoose.Schema(
       required: true,
       trim: true,
     },
+
+    // E'lon egasi
+    ownerId: {
+      type: String,
+      required: true,
+    },
   },
   {
     timestamps: true,
